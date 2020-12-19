@@ -90,7 +90,7 @@ main {
 .xmas-light-container img:nth-child(3) {
   display: none;
 }
-#xmas-light {
+.xmas-light {
   width: 100%;
   height: 10vh;
 }
@@ -249,7 +249,7 @@ main {
   .xmas-light-container img:nth-child(3) {
     display: none;
   }
-  #xmas-light {
+  .xmas-light {
     max-width: 50.5%;
     margin-right: -10px;
   }
@@ -282,7 +282,7 @@ main {
   .xmas-light-container img:nth-child(3) {
     display: inline;
   }
-  #xmas-light {
+  .xmas-light {
     max-width: 34%;
     margin-right: -10px;
   }
