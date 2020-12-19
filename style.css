@@ -86,6 +86,10 @@ main {
   background-size: cover;
   color: white;
 }
+.xmas-light-container img:nth-child(2),
+.xmas-light-container img:nth-child(3) {
+  display: none;
+}
 #xmas-light {
   width: 100%;
   height: 10vh;
@@ -236,6 +240,19 @@ main {
   h2 {
     font-size: 2.5rem;
   }
+  .xmas-light-container {
+    display: flex;
+  }
+  .xmas-light-container img:nth-child(2) {
+    display: inline;
+  }
+  .xmas-light-container img:nth-child(3) {
+    display: none;
+  }
+  #xmas-light {
+    max-width: 50.5%;
+    margin-right: -10px;
+  }
   .deadline {
     gap: 1rem;
     margin-top: 4em;
@@ -256,5 +273,17 @@ main {
   }
   .attribution p {
     font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .xmas-light-container img:nth-child(2) {
+    display: inline;
+  }
+  .xmas-light-container img:nth-child(3) {
+    display: inline;
+  }
+  #xmas-light {
+    max-width: 34%;
+    margin-right: -10px;
   }
 }
