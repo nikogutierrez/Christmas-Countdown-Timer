@@ -51,7 +51,7 @@ function getRemainingTime() {
   if (timeDifference < 0) {
     clearInterval(countdown);
     deadline.classList.add("cover");
-    deadline.innerHTML = `<h3>Hey sorry, Xmas is over!!!</h3>`;
+    deadline.innerHTML = `<h3>Hey, Merry Christmas & Happy Prosperous New Year!!!</h3>`;
   }
 }
 // countdown
