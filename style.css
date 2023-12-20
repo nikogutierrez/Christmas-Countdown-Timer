@@ -61,7 +61,7 @@ body {
   font-size: 0.65rem;
   font-family: var(--font-fam);
   min-height: 100vh;
-  background-color: #000;
+  background-color: White;
   line-height: var(--line-height);
   overflow-x: hidden;
   position: relative;
@@ -76,7 +76,6 @@ a {
   text-decoration: none;
 }
 main {
-  background-image: url(/images/bg-stars.svg);
   background-position: center;
   background-size: cover;
   color: white;
