@@ -6,7 +6,7 @@ const deadlineFormat = document.querySelectorAll(".deadline-format h2");
 const tempDate =  new Date();
 const getYear = tempDate.getFullYear();
 
-const xmasDate = new Date(getYear);
+const xmasDate = new Date(getYear, 11, 27, 00, 00);
 const xmasTime = xmasDate.getTime();
 
 // **** FUNCTION ****
