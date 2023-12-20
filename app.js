@@ -6,7 +6,7 @@ const deadlineFormat = document.querySelectorAll(".deadline-format h2");
 const tempDate =  new Date();
 const getYear = tempDate.getFullYear();
 
-const xmasDate = new Date(getYear, 11, 27, 00, 00);
+const xmasDate = new Date(getYear);
 const xmasTime = xmasDate.getTime();
 
 // **** FUNCTION ****
@@ -51,7 +51,7 @@ function getRemainingTime() {
   if (timeDifference < 0) {
     clearInterval(countdown);
     deadline.classList.add("cover");
-    deadline.innerHTML = `<h3>Hey, Merry Christmas & Happy Prosperous New Year!!!</h3>`;
+    deadline.innerHTML = `<h3>Merry Christmas!</h3>`;
   }
 }
 // countdown
